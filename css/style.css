@@ -46,9 +46,15 @@ header {
         color: #fff;
         text-decoration: underline;
     } 
+    
 
 
 .main {
+        text-align: center;
+        padding: 20px;
+        margin-top: 0;
+    }
+    .split {
         display: grid;
         grid-template-columns: 1fr 1fr; /* Create a 2-column grid with equal width */
         grid-gap: 20px; /* Add a gap between the columns */
@@ -74,7 +80,7 @@ header {
         border: 2px solid #deb841;
         border-radius: 5px;
         margin: 10px;
-        font-weight: bold;
+        font-family: 'Plus Jakarta Sans', sans-serif;
     }
     .button:hover {
         background-color: #333;
@@ -112,3 +118,9 @@ header {
         padding: 20px;
         margin-top: 0;
     }
+
+.paragraph {
+    margin-left: 30%;
+    margin-right: 30%;
+    text-align: center;
+}
