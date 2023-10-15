@@ -1,0 +1,114 @@
+body {
+    background-color: #37323e;
+    color: #deb841;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+hr {
+    border: 2px solid #deb841; 
+    margin: 0; 
+}
+
+header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 20px;
+        margin-bottom: 0;
+    }
+    .logo img {
+        max-height: 40px;
+        border-radius: 40%;
+        vertical-align: middle;
+    }
+    .header-title {
+        position: absolute;
+        font-size: 1.5rem;
+        font-weight: bold;
+        margin: 55px;
+        vertical-align: middle;
+    }
+    nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+    }
+    nav li {
+        margin-right: 20px;
+    }
+    nav a {
+        text-decoration: none;
+        color: #deb841;
+        font-weight: bold;
+    }
+    nav a:hover,
+    nav a:active {
+        color: #fff;
+        text-decoration: underline;
+    } 
+
+
+.main {
+        display: grid;
+        grid-template-columns: 1fr 1fr; /* Create a 2-column grid with equal width */
+        grid-gap: 20px; /* Add a gap between the columns */
+    }
+    .left-main img {
+        width: 100%;
+        height: auto;
+        margin: 50;
+    }
+    .left-main {
+        text-align: left;
+    }
+    .right-main {
+        text-align: center;
+        margin: 100px;
+    }
+    .button {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #deb841;
+        color: #333;
+        text-decoration: none;
+        border: 2px solid #deb841;
+        border-radius: 5px;
+        margin: 10px;
+        font-weight: bold;
+    }
+    .button:hover {
+        background-color: #333;
+        color: #deb841;
+    }
+
+.gallary {
+        text-align: center;
+        padding: 20px;
+        margin-top: 0;
+}
+
+
+.gallary-images {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr; /* Create a 3-column grid with equal width */
+        grid-gap: 20px; /* Add a gap between the columns */
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+    .gallary-images img {
+        width: 100%;
+        height: auto;
+        border-radius: 5px;
+    }
+    .gallary-images img:hover {
+        opacity: 0.7;
+    }
+
+
+
+.footer {
+        background-color: #37323e;  
+        text-align: center;
+        padding: 20px;
+        margin-top: 0;
+    }
